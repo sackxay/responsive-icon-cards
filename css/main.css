@@ -77,3 +77,51 @@ html {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .card {
+    width: 32%;
+    display: inline-block;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .card-body,
+  .card-img {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .card-body,
+  .card-img {
+    display: inline-block;
+  }
+  .card-body {
+    width: 80%;
+  }
+
+}
